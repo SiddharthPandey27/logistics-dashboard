@@ -1,0 +1,177 @@
+.products-box {
+    margin: 10px 20px;
+}
+
+.product-form-input {
+    display: block;
+    height: 20px;
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+
+/* Product Label Css */
+.product-label-text {
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.product-id-label {
+    width: calc(8% + 36px);
+}
+
+.product-quantity-label {
+    width: calc(5% + 36px);
+}
+
+.product-unit-price-label {
+    width: calc(6% + 36px);
+}
+
+.product-id {
+    width: 10%;
+    margin-left: 0px;
+}
+
+.product-name-label {
+    width: calc(20% + 36px);
+}
+
+.product-total-price-label {
+    width: calc(8% + 36px);
+}
+
+.product-notes-label {
+    width: 15%;
+}
+
+/* Product Input Box Width Css */
+.product-name {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.product-quantity {
+    width: 5%;
+    margin-left: 10px;
+}
+
+.product-unit-price {
+    width: 6%;
+    margin-left: 10px;
+}
+
+.product-total-price {
+    width: 8%;
+    margin-left: 10px;
+}
+
+/* Existing Product Row Css */
+.product-row-pre {
+    margin: 10px 0;
+}
+
+/* Product Input CSS */
+.product-input-box {
+    display: inline-block;
+}
+
+.product-notes-input {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.product-id {
+    width: 8%;
+    margin-left: 0px;
+}
+
+/* Error Message */
+.error-msg {
+    color: #dc3545;
+    font-size: 12px;
+    margin: 0 0 15px 0;
+}
+
+/* Button Classes */
+.product-button {
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.product-delete-button {
+    background-color: #dc3545;
+    margin-left: 10px;
+}
+
+.add-product-button {
+    background-color: #007bff;
+}
+
+/* Label Margin */
+.label-row {
+    margin: 15px 0;
+}
+
+/* Disabled Textbox */
+.disabled {
+    background-color: #ddd;
+}
+
+@media only screen and (max-width: 768px) {
+    .products-box {
+        margin: 0;
+    }
+
+    .label-row {
+        display: none;
+    }
+
+    .product-input-box {
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    .product-notes {
+        width: 100%;
+    }
+
+    .product-delete-button {
+        margin: 5px 0 20px 0;
+        width: 100%;
+    }
+
+    .add-product-button {
+        float: left;
+        margin: 10px 0;
+    }
+}

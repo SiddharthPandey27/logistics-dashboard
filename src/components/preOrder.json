@@ -1,0 +1,30 @@
+[{
+    "productId": 100001,
+    "productName": "Stockholm Product Table",
+    "productid": "stockholmProductTable",
+    "quantity": 8,
+    "unitPrice": 529,
+    "totalPrice": 4232,
+    "notes": ""
+}, {
+    "productId": 100002,
+    "productName": "Sofa Furniture",
+    "quantity": 2,
+    "unitPrice": 105,
+    "totalPrice": 210,
+    "notes": ""
+}, {
+    "productId": 100003,
+    "productName": "Dining Table",
+    "quantity": 12,
+    "unitPrice": 105,
+    "totalPrice": 1260,
+    "notes": ""
+}, {
+    "productId": 100004,
+    "productName": "Queen sized Bed",
+    "quantity": 15,
+    "unitPrice": 160,
+    "totalPrice": 2500,
+    "notes": ""
+}]

@@ -1,0 +1,40 @@
+.dashboard {
+    padding: 20px 40px;
+}
+
+.form-section {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product-section {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.save-button-section {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.save-button {
+    background-color: #007bff;
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .dashboard {
+        padding: 10px;
+    }
+
+    .save-button-section {
+        padding: 0;
+        width: 100%;
+    }
+
+    .save-button {
+        float: none;
+        width: 100%;
+    }
+}
